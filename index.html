@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SkillPreneur - Digital Learning Platform</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav >
+    <div class="logo">SkillPreneur</div>
+    <div class="nav-links" id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#packages">Packages</a>
+      <a href="#" class="login-btn">Login</a>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <h1>
+      Unlock Your Digital Potential with <span>SKILLPRENEUR</span>
+    </h1>
+    <p>
+      Unlock your potential with our comprehensive e-learning resources 
+      and master the skills to Learn, Implement & Grow.
+    </p>
+
+    <div class="btn-group">
+      <a href="#" class="btn btn-yellow">Register Now</a>
+      <a href="#" class="btn btn-outline">Find Courses</a>
+    </div>
+
+    <div class="features">
+      <div class="feature">
+        <span class="feature-icon">⏳</span>
+        <span>Lifetime Access</span>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">🎓</span>
+        <span>High Value Certification</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about-container">
+      <h2>About SkillPreneur</h2>
+      <p>
+        SkillPreneur is an innovative e-learning platform designed to empower 
+        students, professionals, and entrepreneurs with the most in-demand 
+        digital skills. Our goal is to help you Learn, Implement, and Grow 
+        with comprehensive resources, expert-led courses, and practical 
+        applications that make you job-ready and future-ready.
+      </p>
+      <a href="#" class="btn-learn">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Packages Section -->
+  <section class="packages" id="packages">
+    <div class="packages-header">
+      <h2>Educational Packages</h2>
+      <p>Unlock Your Potential with Our Educational Packages - Enroll Today!</p>
+    </div>
+
+    <div class="carousel-container" id="carousel">
+      <div class="carousel-track" id="track">
+
+        <!-- PRO -->
+        <div class="plan-card">
+          <div class="plan-title">PRO</div>
+          <ul>
+            <li>Get access to 19 courses</li>
+            <li>Free Live Trainings</li>
+            <li>Bonus Recorded Sessions</li>
+            <li>Learning from Leaders</li>
+            <li>WhatsApp, Email & Call Support</li>
+            <li>Complimentary Freelance Training</li>
+          </ul>
+          <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+
+        <!-- SUPREME -->
+        <div class="plan-card">
+          <div class="plan-title">SUPREME</div>
+          <ul>
+            <li>Get access to 30 courses</li>
+            <li>Free Live Trainings</li>
+            <li>Bonus Recorded Sessions</li>
+            <li>Learning from Leaders</li>
+            <li>WhatsApp, Email & Call Support</li>
+            <li>Complimentary Freelance Training</li>
+          </ul>
+          <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+
+        <!-- PREMIUM -->
+        <div class="plan-card">
+          <div class="plan-title">PREMIUM</div>
+          <ul>
+            <li>Get Access to 38 Courses</li>
+            <li>Free Live Trainings</li>
+            <li>Bonus Recorded Sessions</li>
+            <li>Learning from Leaders</li>
+            <li>WhatsApp, Email & Call Support</li>
+            <li>Complimentary Freelance Training</li>
+          </ul>
+          <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+
+        <!-- PREMIUM PLUS -->
+        <div class="plan-card">
+          <div class="plan-title">PREMIUM PLUS</div>
+          <ul>
+            <li>Get Access to All Courses</li>
+            <li>Free Live Trainings</li>
+            <li>Bonus Recorded Sessions</li>
+            <li>Learning from Leaders</li>
+            <li>WhatsApp, Email & Call Support</li>
+            <li>Complimentary Freelance Training</li>
+          </ul>
+          <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+
+      </div>
+      <div class="dots" id="dots"></div>
+    </div>
+    </section>
+
+    <!-- Why Section -->
+    <section>
+    <div class="why-container">
+      <h1>Why SKILLPRENEUR</h1>
+      <p class="subtitle">Your Gateway to Lifelong Learning and Success.</p>
+
+      <div class="stats">
+        <div class="stat-box"><h2>100+</h2><p>Experienced Trainer</p></div>
+        <div class="stat-box"><h2>35+</h2><p>Courses Rolling Out</p></div>
+        <div class="stat-box"><h2>120K+</h2><p>Trained Students</p></div>
+        <div class="stat-box"><h2>15Cr+</h2><p>Community Earning</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials" id="testimonials">
+    <h2>Student Success Stories</h2>
+    <p>Hear from our learners who turned skills into opportunities</p>
+
+    <div class="slider">
+      <div class="slides" id="slides">
+        <div class="testimonial-card">
+          <img src="https://i.pravatar.cc/70?img=5" alt="Student">
+          <h3>Sneha P.</h3>
+          <div class="course">Web Development Bootcamp</div>
+          <div class="stars">★★★★★</div>
+          <p>"Before this course, I had no coding knowledge. Now I’ve built my own portfolio site and landed an internship."</p>
+        </div>
+
+        <div class="testimonial-card">
+          <img src="https://i.pravatar.cc/70?img=6" alt="Student">
+          <h3>Karthik V.</h3>
+          <div class="course">Data Science with Python</div>
+          <div class="stars">★★★★★</div>
+          <p>"Amazing hands-on training! I learned how to handle datasets and even built a prediction model for my project."</p>
+        </div>
+
+        <div class="testimonial-card">
+          <img src="https://i.pravatar.cc/70?img=7" alt="Student">
+          <h3>Divya R.</h3>
+          <div class="course">UI/UX Design Essentials</div>
+          <div class="stars">★★★★★</div>
+          <p>"This course boosted my creativity! Now I freelance as a UI/UX designer and work with international clients."</p>
+        </div>
+
+        <div class="testimonial-card">
+          <img src="https://i.pravatar.cc/70?img=8" alt="Student">
+          <h3>Arun S.</h3>
+          <div class="course">Digital Marketing Mastery</div>
+          <div class="stars">★★★★★</div>
+          <p>"I learned effective marketing strategies and boosted engagement for my own business. The course is practical and insightful."</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button onclick="prevSlide()">⬅ Prev</button>
+      <button onclick="nextSlide()">Next ➡</button>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq" id="faq">
+    <div class="container my-5">
+      <h2 class="text-center fw-bold">FAQ - Curious minds want to know</h2>
+      <p class="text-center faq-subtext">Here are answers to your burning questions.</p>
+
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">What is SkillPreneur?</button></h2>
+          <div id="faq1" class="accordion-collapse collapse"><div class="accordion-body">SkillPreneur is a digital learning platform offering courses on marketing, business, and entrepreneurship.</div></div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">Are the courses self-paced?</button></h2>
+          <div id="faq2" class="accordion-collapse collapse"><div class="accordion-body">Yes, all our courses are self-paced so you can learn at your own convenience.</div></div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">Can I access the course materials after I complete the course?</button></h2>
+          <div id="faq3" class="accordion-collapse collapse"><div class="accordion-body">Yes, you will continue to have access to the materials even after completion.</div></div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">Do you offer any certifications?</button></h2>
+          <div id="faq4" class="accordion-collapse collapse"><div class="accordion-body">Yes, certificates are provided after completing the course successfully.</div></div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">Are there any prerequisites for enrolling in a course?</button></h2>
+          <div id="faq5" class="accordion-collapse collapse"><div class="accordion-body">No prerequisites are required; beginners can also join.</div></div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">What payment methods do you accept?</button></h2>
+          <div id="faq6" class="accordion-collapse collapse"><div class="accordion-body">We accept debit/credit cards, UPI, net banking, and wallets.</div></div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7">Is my payment information secure?</button></h2>
+          <div id="faq7" class="accordion-collapse collapse"><div class="accordion-body">Yes, we use secure payment gateways with encryption for your safety.</div></div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq8">Do you offer refunds?</button></h2>
+          <div id="faq8" class="accordion-collapse collapse"><div class="accordion-body">Refunds are provided as per our refund policy.</div></div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq9">Can I contact support if I have questions or issues?</button></h2>
+          <div id="faq9" class="accordion-collapse collapse"><div class="accordion-body">Yes, our support team is available to assist you with any issues or queries.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Support Section -->
+  <section class="support-section" id="support">
+    <h1>SKILLPRENEUR Customer Support</h1>
+    <p>(We are available on <em>Monday to Sunday</em> 9am to 5pm)</p>
+
+    <a href="tel:+919625136861" class="contact-box">
+      <i class="fa-solid fa-phone"></i> +91-9625136861
+    </a>
+    <a href="https://wa.me/919310246027" class="contact-box">
+      <i class="fa-brands fa-whatsapp"></i> +91-9310246027
+    </a>
+
+    <p class="disclaimer">
+      (Disclaimer: SKILLPRENEUR is not responsible for payment made against our products to anyone other than our website or through affiliate link.)
+    </p>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-top">
+      <h1>SKILLPRENEUR</h1>
+      <span>THE DIGITAL UNIVERSITY</span>
+      <p>
+        Rather than chasing opportunities, build multiple skillsets and let them come to you. 
+        With SkillPreneur's courses, you can discover the best version of yourself through 
+        a beautiful learning system.
+      </p>
+    </div>
+
+    <div class="footer-sections">
+      <div class="footer-section">
+        <h4>Support</h4>
+        <hr>
+        <ul>
+          <li><a href="#support">Contact Us</a></li>
+          <li><a href="#">Disclaimer</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms and Condition</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Useful Links</h4>
+        <hr>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Educational Packages</h4>
+        <hr>
+        <ul>
+          <li><a href="#packages">Pro</a></li>
+          <li><a href="#packages">Supreme</a></li>
+          <li><a href="#packages">Premium</a></li>
+          <li><a href="#packages">Premium Plus</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bottom-text">
+      ©2020. All Rights Reserved By SKILLPRENEUR Private Limited. Copyright Clare.AI
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body> 
+  </html>
